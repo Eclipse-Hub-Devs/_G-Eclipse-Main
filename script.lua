@@ -6563,7 +6563,8 @@ GunSwordSection = Tabs.FarmingHopTab:Section({
 GunSwordSection = Tabs.FarmingHopTab:Section({
 	Title = "World",
 	TextXAlignment = "Left"
-}); = Tabs.FarmingHopTab:Toggle({
+});
+AutoSecondSeaToggle = Tabs.FarmingHopTab:Toggle({
 	Title = "Auto Second Sea",
 	Desc = "Function Sea 1 Only",
 	Value = _G.Settings.Items["Auto Second Sea"],
